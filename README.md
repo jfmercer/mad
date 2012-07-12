@@ -8,5 +8,13 @@
     |/     \||/     \|(______/ 
 
 # My Awesome Dotfiles
+This is a collection of my dotfiles. I hope you find them as helpful as I do. 
 
-remember to give credit where credit is due
+## Installation
+Clone the respository, and then symlink the files to the home directory. I plan
+to add a script later on to automate the symlink process. 
+
+## Credits
+I lean very heavily on the work of these outstanding gentlemen
+* [Mathias Bynens](http://mathiasbynens.be/) and his [outstanding collection of
+  dotfiles](https://github.com/mathiasbynens/dotfiles). 
