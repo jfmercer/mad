@@ -1,0 +1,30 @@
+[user]
+	name = John F. Mercer
+	email = john.f.mercer@gmail.com
+
+[color]
+    ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    grep = auto
+
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+
+[alias]
+	st = status
+	co = checkout
+	c = commit -m
+	a = add
+	di = diff
+    bra = branch -a
+    last = log -1 HEAD
+
+[github]
+    user = jfmercer
+
+[credential]
+	helper = osxkeychain
