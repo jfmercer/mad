@@ -7,4 +7,4 @@
     | )   ( || )   ( || (__/  )
     |/     \||/     \|(______/ 
 
-    # My Awesome Dotfiles
+# My Awesome Dotfiles
