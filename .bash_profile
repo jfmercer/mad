@@ -1,10 +1,13 @@
-# Load ~/.bash_prompt, ~/.exports, ~/.aliases, ~/.functions and ~/.extra
+# Load ~/.bash_prompt, ~/.exports, ~/.aliases, and ~/.extra
 # ~/.extra can be used for settings you don’t want to commit
-for file in ~/.{bash_prompt,exports,aliases,functions,extra}; do
+for file in ~/.{bash_prompt,exports,aliases,extra}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
-
+# Vim Mode on the Commandline
+set -o vi
+# git autocompletion
+source ~/.git-completion.bash
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
 
