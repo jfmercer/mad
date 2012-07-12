@@ -8,3 +8,5 @@
     |/     \||/     \|(______/ 
 
 # My Awesome Dotfiles
+
+remember to give credit where credit is due
