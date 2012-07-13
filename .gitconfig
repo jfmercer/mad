@@ -1,7 +1,5 @@
-[user]
-	name = John F. Mercer
-	email = john.f.mercer@gmail.com
-
+# git user & Github credentials are set as env variables. See README for more
+# info.
 [alias]
 	    st = status
 	    co = checkout
@@ -29,6 +27,3 @@
 
 [credential]
 		helper = osxkeychain
-
-[github]
-	user = jfmercer
