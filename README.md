@@ -29,6 +29,8 @@ set git user info as env variables in .secrets, which is loaded in
     # Optionally, set your GitHub credentials
     export GITHUB_USER='your_user_name'
     export GITHUB_TOKEN='your_github_token'
+### Helpful Git Aliases
+Find and edit them under .gitconfig. 
 
 ## Credits
 I lean very heavily on the work of these outstanding gentlemen
