@@ -30,3 +30,4 @@
 #
 #     ssh localhost 'echo "PS1: >$PS1<"'
 #
+

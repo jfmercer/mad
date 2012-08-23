@@ -56,7 +56,7 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+
 alias whois="whois -h whois-servers.net"
 
 # Flush Directory Service cache
-alias flush="dscacheutil -flushcache"
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
 # View HTTP traffic
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
