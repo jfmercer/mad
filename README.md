@@ -14,6 +14,12 @@ This is a collection of my dotfiles. I hope you find them as helpful as I do.
 Clone the respository, and then symlink the files to the home directory. I plan
 to add a script later on to automate the symlink process. 
 
+## Linux & Mac Customizations
+I am beginning to add customizations for both Linux and Mac. Although my
+workstation is a Mac, I often use these same dotfiles on Linux servers and
+hence need to use if/else statements to navigate peculiarities between Darwin
+and Linux. This is a work in progress.
+
 ## Git
 ### User Info
 I followed [Yan Pritzker's advice](http://skwp.github.com/dotfiles/#git) and
