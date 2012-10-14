@@ -28,3 +28,6 @@
 [credential]
 		helper = osxkeychain
 
+[user]
+	name = John F. Mercer
+	email = john.f.mercer@gmail.com
