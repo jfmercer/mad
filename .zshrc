@@ -37,4 +37,6 @@ plugins=(git osx brew sublime)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/mercer/.rvm/gems/ruby-1.9.3-p194/bin:/Users/mercer/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/mercer/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/mercer/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=/usr/local/share/npm/bin:/Users/mercer/.rvm/gems/ruby-1.9.3-p194/bin:/Users/mercer/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/mercer/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/mercer/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

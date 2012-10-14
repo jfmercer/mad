@@ -31,3 +31,5 @@
 #     ssh localhost 'echo "PS1: >$PS1<"'
 #
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
