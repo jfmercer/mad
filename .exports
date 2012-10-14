@@ -14,7 +14,7 @@ export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
-if [ "$OSTYPE" == ^darwin ]
+if [[ "$OSTYPE" == ^darwin ]]
 then
     # Setup Amazon EC2 Command-Line Tools
     export EC2_HOME=~/Dropbox/.ec2
