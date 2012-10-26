@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Make sure we're on a Mac
+if [[ "$OSTYPE" =~ ^darwin ]]; then
+    echo "Since this is a Mac, let's roll Homebrew."
+else
+    echo "This ain't a Mac! Exiting now."
+    exit 0
+fi
+
+# Update Homebrew formulae & upgrade existing packages
+# brew update && brew upgrade
