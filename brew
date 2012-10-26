@@ -9,4 +9,28 @@ else
 fi
 
 # Update Homebrew formulae & upgrade existing packages
-# brew update && brew upgrade
+echo "Updating Homebrew and upgrading existing packages"
+brew update && brew upgrade
+
+# Grab duplicate formulae
+brew tap homebrew/dupes
+
+# Array list of Homebrew formulae to install
+myBrew=( git ack bash ctags lynx node wget zsh )
+
+# Array list of dupes to install
+myDupes=( vim )
+
+# Run installs
+for i in ${myBrew[*]}
+do
+    brew install $i
+done
+
+for i in ${myDupes[*]}
+do 
+    brew install $i
+done
+
+# Clean up the Cellar
+brew cleanup
