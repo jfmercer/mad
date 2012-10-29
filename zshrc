@@ -10,7 +10,20 @@ for file in ~/.{aliases,exports,secrets}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
-# Example aliases
+
+# Run z
+. $HOME/.mad/bin/rupa-z/z.sh
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+
+plugins=(git osx brew sublime)
+
+source $ZSH/oh-my-zsh.sh
+
+# My $PATH is kept in ./zsh/path.zsh
+source $HOME/.mad/zsh/path.zsh
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -27,13 +40,3 @@ unset file
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 # COMPLETION_WAITING_DOTS="true"
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-
-plugins=(git osx brew sublime)
-
-source $ZSH/oh-my-zsh.sh
-
-# My $PATH is kept in ./zsh/path.zsh
-source $HOME/.mad/zsh/path.zsh
