@@ -35,5 +35,5 @@ plugins=(git osx brew sublime)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export PATH=$HOME/.mad/bin:/usr/local/share/npm/bin:/Users/mercer/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin
+# My $PATH is kept in ./zsh/path.zsh
+source $HOME/.mad/zsh/path.zsh
