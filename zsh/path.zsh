@@ -1,1 +1,1 @@
-export PATH="$HOME/.rvm/gems/ruby-1.9.3-head/bin:$HOME/.rvm/gems/ruby-1.9.3-head@global/bin:$HOME/.rvm/rubies/ruby-1.9.3-head/bin:$HOME/.rvm/bin:$HOME/.mad/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="$HOME/.rvm/gems/ruby-1.9.3-head/bin:$HOME/.rvm/gems/ruby-1.9.3-head@global/bin:$HOME/.rvm/rubies/ruby-1.9.3-head/bin:$HOME/.rvm/bin:$HOME/.mad/bin:/usr/local/share/npm/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
