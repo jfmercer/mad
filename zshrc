@@ -16,7 +16,7 @@ unset file
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
-plugins=(git osx brew sublime rvm npm node gem )
+plugins=(git osx brew sublime rvm gem zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
