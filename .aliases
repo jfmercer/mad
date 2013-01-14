@@ -92,3 +92,6 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias spotoff="sudo mdutil -a -i off"
 # Enable Spotlight
 alias spoton="sudo mdutil -a -i on"
+
+#Generate Random MAC address
+alias rmac="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'"
