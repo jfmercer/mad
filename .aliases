@@ -95,3 +95,6 @@ alias spoton="sudo mdutil -a -i on"
 
 #Generate Random MAC address
 alias rmac="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'"
+
+# Clear the Download Log
+alias cleardl="sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
