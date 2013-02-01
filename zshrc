@@ -23,6 +23,9 @@ source $ZSH/oh-my-zsh.sh
 # My $PATH is kept in ./zsh/path.zsh
 source $HOME/.mad/zsh/path.zsh
 
+# Let's color those man pages
+source $HOME/.mad/zsh/color-man-pages.zsh
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
