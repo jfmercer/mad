@@ -16,10 +16,10 @@ brew update && brew upgrade
 brew tap homebrew/dupes
 
 # Array list of Homebrew formulae to install
-myBrew=( git ack bash ctags lynx node wget zsh )
+myBrew=( mercurial git bash ctags lynx wget zsh coreutils vim)
 
 # Array list of dupes to install
-myDupes=( vim )
+myDupes=( )
 
 # Run installs
 for i in ${myBrew[*]}
@@ -28,7 +28,7 @@ do
 done
 
 for i in ${myDupes[*]}
-do 
+do
     brew install $i
 done
 
