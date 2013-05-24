@@ -1,0 +1,1 @@
+/Users/mercer/.config/fish/config.fish
