@@ -49,6 +49,6 @@ Thumbs.db
 
 # XCode 4 Garbage
 *.xcodeproj/xcuserdata/*.xcuserdatad
-*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad
+*.xcodeproj/project.xcworkspace/
 *.swp
 *~.nib
