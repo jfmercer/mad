@@ -16,7 +16,7 @@ brew update && brew upgrade
 brew tap homebrew/dupes
 
 # Array list of Homebrew formulae to install
-myBrew=( mercurial git bash ctags lynx wget zsh coreutils vim svn python python3 fishfish wine valgrind tig cowsay fortune ssh-copy-id )
+myBrew=( mercurial git bash ctags lynx wget zsh coreutils vim svn python fishfish wine valgrind tig cowsay fortune ssh-copy-id mutt msmtp offline-imap notmuch contacts )
 
 # Array list of dupes to install
 myDupes=( )

@@ -16,6 +16,9 @@ Desktop.ini
 *.exe
 *.o
 *.so
+*.out
+*.dSYM
+*.gch
 
 # Packages #
 ############
