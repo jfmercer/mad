@@ -24,3 +24,4 @@ then
 fi
 
 export JAVA_HOME=`/usr/libexec/java_home`
+export MAVEN_HOME=`/usr/local/Cellar/maven/3.2.3/libexec`
