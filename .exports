@@ -23,5 +23,5 @@ then
     export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
 fi
 
-export JAVA_HOME=/usr/libexec/java_home
-export MAVEN_HOME=/usr/local/Cellar/maven/
+# export JAVA_HOME=/usr/libexec/java_home
+# export MAVEN_HOME=/usr/local/Cellar/maven/
