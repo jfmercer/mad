@@ -23,7 +23,7 @@
 	grep = auto
 
 [core]
-	excludesfile = /Users/mercer/.gitignore
+	excludesfile = ~/.gitignore
 	editor = vim
 
 [credential]
