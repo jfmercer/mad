@@ -16,7 +16,7 @@ unset file
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
-plugins=(git osx brew sublime rvm gem zsh-syntax-highlighting zsh-history-substring-search)
+plugins=(git osx brew sublime rvm gem zsh-syntax-highlighting zsh-history-substring-search composer vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -30,7 +30,7 @@ source $HOME/.mad/zsh/color-man-pages.zsh
 # CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"

@@ -1,1 +1,2 @@
-export PATH="$HOME/local/bin:$HOME/opt/bin:$HOME/bin:$HOME/.mad/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+# OS X's path_helper now sets the $PATH
+# export PATH="/usr/local/bin:$HOME/.composer/vendor/bin:$HOME/.mad/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
