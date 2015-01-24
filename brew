@@ -14,9 +14,11 @@ brew update && brew upgrade
 
 # Grab duplicate formulae
 brew tap homebrew/dupes
+brew tap homebrew/php
+brew tap caskroom/cask
 
 # Array list of Homebrew formulae to install
-myBrew=( mercurial git bash ctags lynx wget zsh coreutils vim svn python fishfish wine valgrind tig cowsay fortune ssh-copy-id mutt msmtp offline-imap notmuch contacts tree)
+myBrew=( bash bash-completion zsh wget colordiff "vim --override-system-vi" grep ssh-copy-id coreutils cowsay ctags fortune git openssh "php56 --with-gmp --with-phpdbg" php56-xdebug python python3 tree node tig homebrew/php/composer brew-cask )
 
 # Array list of dupes to install
 myDupes=( )
