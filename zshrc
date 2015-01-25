@@ -12,6 +12,14 @@ for file in ~/.{aliases,exports,secrets}; do
 done
 unset file
 
+# completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
+# everyone loves cowsay
+if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune ]; then
+    fortune | cowsay
+fi
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -41,3 +49,6 @@ DISABLE_AUTO_UPDATE="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 # COMPLETION_WAITING_DOTS="true"
 #
+
+# Syntax Highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
