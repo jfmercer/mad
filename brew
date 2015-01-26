@@ -18,7 +18,7 @@ brew tap homebrew/php
 brew tap caskroom/cask
 
 # Array list of Homebrew formulae to install
-myBrew=( bash bash-completion zsh wget colordiff "vim --override-system-vi" grep ssh-copy-id coreutils cowsay ctags fortune git openssh "php56 --with-gmp --with-phpdbg" php56-xdebug python python3 tree node tig homebrew/php/composer brew-cask )
+myBrew=( bash bash-completion zsh wget colordiff "vim --override-system-vi" grep ssh-copy-id coreutils cowsay ctags fortune git openssh "php56 --with-gmp --with-phpdbg" php56-xdebug php56-mcrypt python python3 tree node tig homebrew/php/composer brew-cask wp-cli zsh-completion zsh-syntax-highlighting)
 
 # Array list of dupes to install
 myDupes=( )
