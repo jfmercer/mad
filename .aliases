@@ -106,6 +106,5 @@ alias cleardl="sqlite3 ~/Library/Preferences/com.apple.LaunchServices.Quarantine
 # Firefox Profile Manager
 alias ffprofile="/Applications/Firefox.app/Contents/MacOS/firefox-bin -p"
 
-#LC-3 Simulator Shortcuts
-alias lc3sim="wine ~/Projects/@LC3/windows/Simulate.exe"
-alias lc3edit="wine ~/Dropbox/Projects/@LC3/windows/LC3Edit.exe"
+# Edit MAMP Apache Config
+alias editMAMPApache="vim /Applications/MAMP/conf/apache/httpd.conf"
