@@ -41,6 +41,8 @@ alias lsd='ls -l | grep "^d"'
 
 # Fix Homebrew
 alias fixbrew='chown -R $USER /usr/local'
+# brew-cask
+alias bc='brew-cask'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
