@@ -110,3 +110,7 @@ alias ffprofile="/Applications/Firefox.app/Contents/MacOS/firefox-bin -p"
 
 # Edit MAMP Apache Config
 alias editMAMPApache="vim /Applications/MAMP/conf/apache/httpd.conf"
+
+# Apache
+alias macvhost="sudo vim /etc/apache2/extra/httpd-vhosts.eonf"
+alias bps="brew-php-switcher"
