@@ -108,9 +108,19 @@ alias cleardl="sqlite3 ~/Library/Preferences/com.apple.LaunchServices.Quarantine
 # Firefox Profile Manager
 alias ffprofile="/Applications/Firefox.app/Contents/MacOS/firefox-bin -p"
 
-# Edit MAMP Apache Config
-alias editMAMPApache="vim /Applications/MAMP/conf/apache/httpd.conf"
-
 # Apache
-alias macvhost="sudo vim /etc/apache2/extra/httpd-vhosts.eonf"
+alias macvhost="sudo vim /etc/apache2/extra/httpd-vhosts.conf"
 alias bps="brew-php-switcher"
+alias arestart="sudo apachectl restart"
+
+# MySQL and Apache
+alias start="mysql.server start && sudo apachectl start"
+alias stop="mysql.server stop && sudo apachectl stop"
+alias mrestart="sudo mysql.server restart"
+
+# PHP
+alias e53="vim /usr/local/etc/php/5.3/php.ini"
+alias e54="vim /usr/local/etc/php/5.4/php.ini"
+alias e55="vim /usr/local/etc/php/5.5/php.ini"
+alias e56="vim /usr/local/etc/php/5.6/php.ini"
+
