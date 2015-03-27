@@ -16,6 +16,7 @@ brew update && brew upgrade
 echo "Grabbing Dupes and PHP"
 brew tap homebrew/dupes
 brew tap homebrew/php
+brew tap homebrew/completions
 
 # Array list of Homebrew formulae to install
 myBrew=( bash bash-completion brew-php-switcher colordiff homebrew/php/composer coreutils cowsay fortune git mcrypt mysql python python3 ssh-copy-id subversion tig tree "vim --override-system-vi --with-python3" wget zsh zsh-completion zsh-syntax-highlighting )
