@@ -8,7 +8,7 @@ alias -- -="cd -"
 
 # Shortcuts
 alias d="cd ~/Dropbox"
-alias c="cd ~/Code"
+alias C="cd ~/Code"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias g="git"
@@ -72,7 +72,7 @@ alias hd="hexdump -C"
 alias md5sum="md5"
 
 # Trim new lines and copy to clipboard
-alias c="tr -d '\n' | pbcopy"
+alias cc="tr -d '\n' | pbcopy"
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
@@ -113,6 +113,9 @@ alias cleardl="sqlite3 ~/Library/Preferences/com.apple.LaunchServices.Quarantine
 
 # Firefox Profile Manager
 alias ffprofile="/Applications/Firefox.app/Contents/MacOS/firefox-bin -p"
+
+# Homestead
+hs='homestead'
 
 # Apache
 alias macvhost="sudo vim /etc/apache2/extra/httpd-vhosts.conf"
