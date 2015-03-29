@@ -8,11 +8,13 @@ alias -- -="cd -"
 
 # Shortcuts
 alias d="cd ~/Dropbox"
-alias p="cd ~/Dropbox/Projects"
+alias c="cd ~/Code"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
 alias g="git"
 alias h="history"
 alias v="vim"
-alias m="mate ."
+alias s="subl ."
 alias o="open"
 alias oo="open ."
 alias mad="cd ~/.mad"
@@ -41,8 +43,6 @@ alias lsd='ls -l | grep "^d"'
 
 # Fix Homebrew
 alias fixbrew='chown -R $USER /usr/local'
-# brew-cask
-alias bc='brew-cask'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
@@ -101,6 +101,12 @@ alias spoton="sudo mdutil -a -i on"
 alias rmac="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'"
 # Spoof MAC address
 alias spoof="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | tr '[:lower:]' '[:upper:]' | xargs sudo ifconfig en1 ether"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
 
 # Clear the Download Log
 alias cleardl="sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
