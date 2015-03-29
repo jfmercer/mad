@@ -20,16 +20,16 @@ if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune ]; then
     fortune | cowsay
 fi
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# (Plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
+# Note: composer plugin adds composer/bin to $PATH
 
-plugins=(git git-flow svn laravel5 node python osx brew composer sublime sudo vundle zsh-syntax-highlighting zsh-history-substring-search composer vagrant)
+plugins=(git git-flow svn composer laravel5 node python osx brew sublime sudo vundle zsh-syntax-highlighting zsh-history-substring-search vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
 # My $PATH is kept in ./zsh/path.zsh
-source $HOME/.mad/zsh/path.zsh
+# source $HOME/.mad/zsh/path.zsh
 
 # Let's color those man pages
 source $HOME/.mad/zsh/color-man-pages.zsh
