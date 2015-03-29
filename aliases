@@ -110,7 +110,7 @@ alias ffprofile="/Applications/Firefox.app/Contents/MacOS/firefox-bin -p"
 
 # Apache
 alias macvhost="sudo vim /etc/apache2/extra/httpd-vhosts.conf"
-alias bps="brew-php-switcher"
+alias bps="brew-php-switcher && apachectl stop"
 alias arestart="sudo apachectl restart"
 
 # MySQL and Apache
