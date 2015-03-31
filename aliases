@@ -115,11 +115,11 @@ alias cleardl="sqlite3 ~/Library/Preferences/com.apple.LaunchServices.Quarantine
 alias ffprofile="/Applications/Firefox.app/Contents/MacOS/firefox-bin -p"
 
 # Homestead
-hs='homestead'
+alias hs='homestead'
 
 # Apache
 alias macvhost="sudo vim /etc/apache2/extra/httpd-vhosts.conf"
-alias bps="brew-php-switcher && apachectl stop"
+alias bps="brew-php-switcher"
 alias arestart="sudo apachectl restart"
 
 # MySQL and Apache

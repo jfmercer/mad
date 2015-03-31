@@ -20,3 +20,4 @@ export JAVA6_HOME=`/usr/libexec/java_home -v 1.6`
 # export JAVA8_HOME=`/usr/libexec/java_home -v 1.8`
 export JAVA_HOME=$JAVA6_HOME
 # export MAVEN_HOME=/usr/local/Cellar/maven/
+
