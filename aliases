@@ -42,7 +42,7 @@ alias lsd='ls -l | grep "^d"'
 #fi
 
 # Fix Homebrew
-alias fixbrew='chown -R $USER /usr/local'
+alias fixbrew='chown -R $(echo $USER):$(id -gn) /usr/local'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
