@@ -42,7 +42,7 @@ alias lsd='ls -l | grep "^d"'
 #fi
 
 # Fix Homebrew permission issues
-alias fixbrew='chown -R $(echo $USER):$(id -gn) $(brew --prefix)'
+alias fixbrew='sudo chown -R $(whoami):admin $(brew --prefix)'
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
