@@ -121,6 +121,7 @@ alias hs='homestead'
 alias macvhost="sudo vim /etc/apache2/extra/httpd-vhosts.conf"
 alias bps="brew-php-switcher"
 alias arestart="sudo apachectl restart"
+alias alogs='cd /private/var/log/apache2'
 
 # MySQL and Apache
 alias start="mysql.server start && sudo apachectl start"
