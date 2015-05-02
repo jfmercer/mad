@@ -15,9 +15,9 @@ export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
-export JAVA6_HOME=`/usr/libexec/java_home -v 1.6`
-# export JAVA7_HOME=`/usr/libexec/java_home -v 1.7`
+# export JAVA6_HOME=`/usr/libexec/java_home -v 1.6`
+export JAVA7_HOME=`/usr/libexec/java_home -v 1.7`
 # export JAVA8_HOME=`/usr/libexec/java_home -v 1.8`
-export JAVA_HOME=$JAVA6_HOME
+export JAVA_HOME=$JAVA7_HOME
 # export MAVEN_HOME=/usr/local/Cellar/maven/
 
