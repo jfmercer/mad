@@ -1,3 +1,4 @@
+###################
 #     Mac OS X    #
 ###################
 .DS_Store
@@ -25,6 +26,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+###################
 # Compiled source #
 ###################
 *.com
@@ -37,6 +39,7 @@ Temporary Items
 *.dSYM
 *.gch
 
+############
 # Packages #
 ############
 # it's better to unpack these files and commit the raw source
@@ -50,12 +53,14 @@ Temporary Items
 *.tar
 *.zip
 
+######################
 # Logs and databases #
 ######################
 *.log
 *.sql
 *.sqlite
 
+#######################
 # JetBrains IDE Files #
 #######################
 .idea
@@ -63,6 +68,7 @@ Temporary Items
 *.ipr
 *.iws
 
+############
 # IntelliJ #
 ############
 out/
@@ -70,61 +76,41 @@ out/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
+#################
 ## JIRA plugin ##
 #################
 atlassian-ide-plugin.xml
 
+##########################################################
 ## Crashlytics plugin (for Android Studio and IntelliJ) ##
 ##########################################################
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 
+##############
 # Java Files #
 ##############
 *.class
 
+################################
 # Mobile Tools for Java (J2ME) #
 ################################
 .mtj.tmp/
 
+#################
 # Package Files #
 #################
 *.jar
 *.war
 *.ear
 
+#################################
 # Java virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 #################################
 hs_err_pid*
 
-## SugarCRM ##
-##############
-# Ignore custom .htaccess stuff.
-/.htaccess
-# Ignore the cache directory completely.
-# This will break the current behaviour. Which was often leading to
-# the misuse of the repository as backup replacement.
-# For development the cache directory can be safely ignored and
-# therefore it is ignored.
-/cache/
-# Ignore some files and directories from the custom directory.
-/custom/history/
-/custom/modulebuilder/
-/custom/working/
-/custom/modules/*/Ext/
-/custom/application/Ext/
-# Custom configuration should also be ignored.
-/config.php
-/config_override.php
-# The silent upgrade scripts aren't needed.
-/silentUpgrade*.php
-# Logs files can safely be ignored.
-*.log
-# Ignore the new upload directories.
-/upload/
-/upload_backup/
-
+###############################
 ####       COMPOSER        ####
 ###############################
 composer.phar
@@ -133,3 +119,8 @@ vendor/
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
+
+##################
+###   Unix    ####
+##################
+tmp/**/*
