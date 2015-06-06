@@ -20,11 +20,14 @@ if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune ]; then
     fortune | cowsay
 fi
 
+# Colorize with grc
+source "`brew --prefix`/etc/grc.bashrc"
+
 # (Plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Note: composer plugin adds composer/bin to $PATH
 
-plugins=(git git-flow svn composer laravel5 node python osx brew sublime sudo vundle zsh-syntax-highlighting zsh-history-substring-search vagrant)
+plugins=(composer laravel5 node python osx brew sublime sudo vundle zsh-syntax-highlighting zsh-history-substring-search vagrant)
 
 source $ZSH/oh-my-zsh.sh
 

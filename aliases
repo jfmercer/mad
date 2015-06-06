@@ -19,6 +19,7 @@ alias o="open"
 alias oo="open ."
 alias mad="cd ~/.mad"
 alias tmux="TERM=screen-256color-bce tmux"
+alias diff="colordiff"
 
 # I like to protect myself from myself...
 alias mv="mv -i"
@@ -140,5 +141,9 @@ alias e56="vim /usr/local/etc/php/5.6/php.ini"
 # ElasticSearch
 alias startes="elasticsearch --config=/usr/local/opt/elasticsearch13/config/elasticsearch.yml"
 
+# git
+# Delete Merged Branches on localhost
+alias dmb="git branch --merged | grep -v "\*" | xargs -n 1 git branch -d"
 # Github
 alias git=hub
+
