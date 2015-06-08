@@ -148,5 +148,5 @@ alias dmb="git branch --merged | grep -v "\*" | xargs -n 1 git branch -d"
 alias git=hub
 
 # weather
-alias wego="/usr/local/opt/go/libexec/bin/wego"
+alias wego="/usr/local/opt/go/libexec/bin/bin/wego"
 
